@@ -1,7 +1,4 @@
-!CHANGELOG.md
-!README.md
-!ejemplo.md
-!requirements.txt
+
 *$py.class
 *.7z
 *.cover
@@ -37,8 +34,6 @@
 .eggs/
 .env
 .hypothesis/
-.idea
-.idea/
 .installed.cfg
 .ipynb_checkpoints
 .mypy_cache/
@@ -54,7 +49,6 @@
 .spyproject
 .tox/
 .venv
-.idea
 .webassets-cache
 /site
 ENV/
@@ -107,3 +101,9 @@ var/
 venv.bak/
 venv/
 wheels/
+!CHANGELOG.md
+!README.md
+!ejemplo.md
+!requirements.txt
+.idea
+.idea/
