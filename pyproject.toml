@@ -1,0 +1,26 @@
+[project]
+name            = "vtfree"
+version         = "0.1.0"
+description     = "Polite VirusTotal Public API v3 client"
+readme          = "README.md"
+license         = {text = "MIT"}
+authors         = [{name = "nand0san", email = "hancaidolosdos@hotmail.com"}]
+requires-python = ">=3.10"
+dependencies    = [
+    "requests>=2.31",
+    "python-dotenv>=1.0",
+]
+
+[project.urls]
+Homepage        = "https://github.com/nand0san/vtfree"
+Issues          = "https://github.com/nand0san/vtfree/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]              # layout “src/”
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]   # backend moderno
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]             # incluye README + licencia en wheel
+"vtfree" = ["py.typed"]                    # (si marcas typing PEP561)
