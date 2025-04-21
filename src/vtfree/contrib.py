@@ -10,11 +10,11 @@ y la pase por parámetro o la configure vía `set_default_client()`.
 """
 from __future__ import annotations
 import base64
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from .client import VTClient
 
-_DEFAULT_CLIENT: VTClient | None = None
+_DEFAULT_CLIENT: Optional[VTClient] = None
 
 
 def set_default_client(client: VTClient) -> None:

@@ -1,11 +1,11 @@
 [project]
 name            = "vtfree"
-version         = "0.1.0"
+version         = "0.1.1"           # ↟ bump
 description     = "Polite VirusTotal Public API v3 client"
 readme          = "README.md"
 license         = {text = "MIT"}
 authors         = [{name = "nand0san", email = "hancaidolosdos@hotmail.com"}]
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies    = [
     "requests>=2.31",
     "python-dotenv>=1.0",
