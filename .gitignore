@@ -54,6 +54,7 @@
 .spyproject
 .tox/
 .venv
+.idea
 .webassets-cache
 /site
 ENV/
